@@ -1,0 +1,47 @@
+@import url("https://api.fontshare.com/v2/css?f[]=ranade@100,500&f[]=satoshi@500,300&display=swap");
+
+$base-color: white;
+$highlight-blue: #36A3FF;
+$background-color: #1F2028;
+$title-font: 'Ranade', sans-serif;
+$body-font: 'Saroti', sans-serif;
+
+@mixin devices ($breakpoint) { 
+  
+    @if $breakpoint == tablet {    
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
+  }
+ 
+  @if $breakpoint == mobile {
+    @media only screen and (max-width: 640px) {
+      @content;
+    }
+  }
+}
+.underline-hover {
+    position: relative;
+}
+
+.underline-hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $highlight-blue;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+
+.underline-hover:hover {
+    cursor: pointer;
+}
+
+.underline-hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
