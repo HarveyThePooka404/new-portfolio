@@ -65,7 +65,7 @@ export default class BurgerMenu extends Vue {
     display: block;
     position: fixed;
     left: 0;
-    top: 7vh;
+    top: 10vh;
     width: 100vw;
     height: 20px;
     list-style: none;
@@ -75,6 +75,7 @@ export default class BurgerMenu extends Vue {
     li {
         border-top: solid 1px stylesheet.$highlight-blue;
         border-bottom: solid 1px stylesheet.$highlight-blue;
+        background-color: stylesheet.$background-color;
         padding: 1em;
 
         transform: translate(-2000px);

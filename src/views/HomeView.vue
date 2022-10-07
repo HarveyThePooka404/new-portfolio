@@ -1,12 +1,54 @@
 <template>
   <div class="home">
-    <p>Hello</p>
+    <Section>
+      <H1 title="My name is Sylvain Buisson, I am a Fullstack Developer." />
+    </Section>
+    <Section>
+      <Container class="container-home">
+        <p class="p-intro"> If you're here, you'd probably like to know more about me. We can probably get you started with a <router-link to="/portfolio">porftolio</router-link> or a <router-link to="/resume">resume</router-link>. We're still hard at work to provide you with more content soon.  </p>
+      </Container>
+    </Section>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import Section from "../components/layout/Section.vue"
+import H1 from "../components/layout/H1.vue";
+import Container from "../components/layout/Container.vue";
 
-@Component({})
+@Component({
+  components: {
+    Section, 
+    H1,
+    Container
+  }
+})
 export default class HomeView extends Vue {}
 </script>
+
+<style lang="scss" scoped>
+
+  @use '@/assets/stylesheet.scss' as stylesheet;
+
+  .container-home {
+    max-width: 500px;
+  }
+
+  .home {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .p-intro {
+    font-family: stylesheet.$body-font;
+    text-align: left;
+    font-size: 1.2rem;
+  a {
+    &:visited {
+      color: white;
+    }
+  }
+  }
+</style>

@@ -10,7 +10,9 @@ const routes: Array<RouteConfig> = [
     name: "home",
     meta: {
       title: "Sylvain Buisson - Home"
-    }
+    }, 
+    component: () =>
+      import(/* webpackChunkName: "home") */ "../views/HomeView.vue"),
   },
   {
     path: "/about",
