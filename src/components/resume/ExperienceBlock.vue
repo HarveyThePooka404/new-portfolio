@@ -1,12 +1,16 @@
 <template>
      <div class="experience-container">
         <div class="experience-title">
-            <h2> <span>{{experience.jobTitle}}</span> @{{experience.company}} </h2>
+            <div class="experience-title-wrapper">
+            <h2> <span>{{experience.jobTitle}}</span></h2>
+            <h2> @{{experience.company}} </h2>
+                </div>
             <span> {{experience.timeRange}} </span>
         </div>
         <p class="experienceContent">
-            {{experience.experienceContent}}
-        <div class="techStack">
+            <span v-html="experience.experienceContent"></span>
+        </p>    
+        <div v-if="experience.techStack" class="techStack">
             <h3> Tech Stack </h3>
             <span>  {{experience.techStack}} </span>
         </div>
@@ -23,6 +27,8 @@ export default class ExperienceBlock extends Vue {
 </script>
     
 <style lang='scss'>
+
+/* It's not scoped, because I'm too lazy to make it work with SCSS right now. It will impact Degree Component */
      @use '@/assets/stylesheet.scss' as stylesheet;
 
      .experience-container {
@@ -41,9 +47,43 @@ export default class ExperienceBlock extends Vue {
      .experience-title {
         display: flex;
         align-items: baseline;
+        justify-content: space-between;
+     }
+
+    @include stylesheet.devices(mobile) {
+
+    .experienceContent {
+        text-align: left;
+    }
+
+      .experience-title {
+        flex-flow: column;
+      }
+
+      .experience-title {
         span {
-            margin-left: 2em;
+            margin-top: 10px;
+            margin-left: 0;
         }
+      }
+     }
+
+     .experience-title-wrapper {
+        h2 {
+            margin: 0;
+            padding: 0;
+            text-align: left;
+
+        }
+        
+        h2:nth-child(1) {
+            margin-right: 10px;
+        }
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: left;
+        
      }
 
      .experience-title {

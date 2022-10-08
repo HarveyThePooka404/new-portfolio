@@ -8,6 +8,8 @@
 <script lang="ts">
 import NavBar from "./components/navigation/NavBar.vue";
 
+    console.log( "%cThe code for the website is shared in my portfolio! %o", "color: red ; font-size: 20px;", "go there!")
+
 export default {
   name: "app",
   components: {
@@ -26,6 +28,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
+}
+
+.consumed {
+  margin-bottom: 2em;
+}
+
+html {
+  scroll-behavior: 'smooth';
 }
 
 body {

@@ -1,62 +1,72 @@
 {
     "Software Development": {
         "name": "Software Development",
+        "anchor": "software_development", 
         "exerpt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
         "experiences" : [{
             "jobTitle": "Project Lead", 
             "company": "Culmas.io", 
             "timeRange": "Octobre 2021 - Present", 
-            "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+            "experienceContent": "As a project lead I kept my responsibilities as a software developer while taking the responsibility of ad hoc processes including <ul><li>Development Cycle organization and structure (using a homebrewed version of ShapeUp) </li><li>Recruitment Process (interview process and technical tests ; being part of Career Day at KU) </li><li>Performance Review (setting up the process of performance reviews for the company)</li></ul>",
             "techStack": "Vue / Typescript, GraphQL, Go, Firebase / Cloud Functions"
         }, {
             "jobTitle": "Student Software Developer", 
             "company": "Culmas.io", 
-            "timeRange": "Octobre 2021 - Present", 
-            "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+            "timeRange": "Mars 2021 - Octobre 2021", 
+            "experienceContent": "Culmas.io developed a Theater Management System (TMS). It was a platform to facilitate Improv Theater's daily administrative tasks. Say goodbye to Google Sheet, Ticketing solutions, Scheduling apps, Email-marketing solutions, CRM systems, CMS systems - Culmas offered a centralised 'Less Admin, More improv' solution. <br/> <br/> Based on a system of 'templating', the TMS helped you create your shows and classes for the year in a few clicks. It included a generated Storefront (supported by Stripe) to sell your tickets. We created a 'headless' architecture, with a GraphQL API.",
             "techStack": "Vue / Typescript, GraphQL, Go, Firebase / Cloud Functions"
         }, {
             "jobTitle": "Frontend Intern", 
             "company": "Tamanoir Immersive Studio", 
-            "timeRange": "Octobre 2021 - Present", 
-            "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+            "timeRange": "Mars 2021 - Mai 2021", 
+            "experienceContent": "Tamanoir Immersive Studio is a French company, producing VR / AR experiences. I started with them as an Intern in Mars, to re-do their website (in Vue at the time). After that, I worked on creating a new space for their Wordpress architecture - preparing the new 'Sable Noir' project. <br/> <br />After that, I started doing my final project for KEA with them. 'Orpheus' was a Vue / Firebase platform, protyping for their experience 'Les Naufragés'. Any Tamanoir admin could create an event, which generated a temporary URL, streaming an audio experience.",
             "techStack": "Vue / Typescript, Firebase"
         }
     ],
     "degree": {
         "degreeTitle": "Multimedia Design - AP degree",
         "school": "KEA", 
-        "timeRange": "Octobre 2021 - Present", 
-        "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin."
+        "timeRange": "September 2019 - June 2021", 
+        "experienceContent": "As a Multimedia Design student, I studied all the stages of digital design processes and acquired skills within the following core areas: User Interface Design and Development, User Experience (UX), Content Creation, Technology and Business. This AP degree teaches how to design, develop, plan, manage and produce multimedia products including websites, mobile services, content production and digital communication for social media, and innovative concepts. <br/> <br/> As part of my studies I collaborated with businesses and organisations during case projects (including Green Peace, DXC, .série...) and internship (with Tamanoir Immersive Studio)."
     }
     },
     "Human Resources": {
         "name": "Human Resources",
+        "anchor": "human_resources",
         "exerpt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
         "experiences" : [{
-            "jobTitle": "Project Lead", 
-            "company": "Culmas.io", 
-            "timeRange": "Octobre 2021 - Present", 
-            "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
-            "techStack": "Vue / Typescript, GraphQL, Go, Firebase / Cloud Functions"
+            "jobTitle": "Digital Training & Development Project Manager", 
+            "company": "Microcred / Baobab", 
+            "timeRange": "July 2016 - July 2018", 
+            "experienceContent": "Baobab is a financial inclusion group focusing on serving individuals, micro and small enterprises (MSMEs) on the African continent and in China. The company's mission is to unleash the potential of its clients offering them simple and easy to use financial services. Today Baobab operates in Burkina Faso, China, Democratic Republic of Congo, Ivory Coast, Madagascar, Mali, Nigeria, Senegal, Tunisia and Zimbabwe. <br/><br/> As a project manager, I worked on ensuring that every employees at Baobab had access to an efficient and clear HRIS: from training the trainer, creating learning content to managing (aka doing support) for the annual appraisals. To sum-up: if you had a need for digital training or following the performance of your team, you would call me.  My missions included:<ul><li> Project Management (follow-up and coordination on all eLearning and performance projects) </li><li>Learning & performance solutions design (implementing new solutions throughout the group : LMS & Annual appraisals)</li><li>Change management & empowerment programs (training all users for the new solutions, and support & trainings for local administrators)</li><li> Initiated the Knowledge management & Community Management projects & process for Microcred </li></ul>"
         }, {
-            "jobTitle": "Student Software Developer", 
-            "company": "Culmas.io", 
-            "timeRange": "Octobre 2021 - Present", 
-            "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
-            "techStack": "Vue / Typescript, GraphQL, Go, Firebase / Cloud Functions"
-        }, {
-            "jobTitle": "Frontend Intern", 
-            "company": "Tamanoir Immersive Studio", 
-            "timeRange": "Octobre 2021 - Present", 
-            "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
-            "techStack": "Vue / Typescript, Firebase"
+            "jobTitle": "Talent Researcher", 
+            "company": "Hunton Lewis", 
+            "timeRange": "January 2016 - June 2016", 
+            "experienceContent": "Talent Researcher at Hunton Lewis, Executive Search firm at the crossroads of:<ul><li>Digital Transformation / Technology</li><li>Key practices: Luxury/Fashion/Retail, Media, Industry, Finance</li></ul>Searches operated worldwide including Asia, Europe, the Middle East and the Americas for positions based in Europe. <br/><br/>Clients: worldwide leaders in their industries and range from yearly revenues of $100 million to $100 billion with headquarters in North America, Europe, Middle East and Japan. Most of them are listed on the Nyse, Nasdaq and Euronext market places. "
+            }, {
+            "jobTitle": "Assistant Talent Development Project Manager", 
+            "company": "Ubisoft", 
+            "timeRange": "June 2014 - August 2015", 
+            "experienceContent": "Ubisoft is a leading video game company, the creators of original and immersive worlds like Assassin's Creed, Far Cry, The Crew or Watch Dogs. <br/><br/>Within the Knowledge management & Learning team, I implement programs and tools at the Group level, to identify, build, and reinforce key behaviors and competencies (soft skills and management skills) in alignment with the vision and core values of Ubisoft and the Group's guidelines. <ul><li> Developed and produced an eLearning Module on 'Group dynamics'</li><li>Designed a project to improve learning and reading at Ubisoft.</li><li>Created content and support for a training on Collaboration.</li><li>Created content, activities and support for a training made for Community managers.</li></ul>"
         }
     ],
     "degree": {
-        "degreeTitle": "Multimedia Design - AP degree",
-        "school": "KEA", 
-        "timeRange": "Octobre 2021 - Present", 
-        "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin."
+        "degreeTitle": "Master in Human Resources Management",
+        "school": "Sciences Po Paris", 
+        "timeRange": "September 2013 - July 2015", 
+        "experienceContent": "The Human Resources Management Master Program at Sciences Po is designed for students looking for careers in strategic human resources management and in management consulting, either at companies or consulting firms. To train HR specialists capable of meeting recruiters' requirements, this Master focuses on four key educational objectives:<ul><li>Acquisition of solid knowledge of the corporate world, management tools and labor law; </li><li>Familiarity with the international environment (courses in foreign languages and intercultural management)</li><li>Ability to be rapidly operational. The program therefore has a highly practical focus alternating with apprenticeship periods in a company</li><li>Ability to assess the existing situation and participate in formulating policies in the different fields of human resources and labor relations thanks to a very solid grounding in the social sciences (sociology of organizations, the economics of work, social psychology).</li></ul>"
     }
+    }, 
+    "Philosophy": {
+        "name": "Philosophy", 
+        "anchor": "philosophy", 
+        "exerpt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+        "degree": {
+            "degreeTitle": "Bachelor in Philosophy", 
+            "school": "Lycée Jules Ferry",
+            "timeRange": "September 2010 - July 2013", 
+            "experienceContent": "The classes préparatoires aux grandes écoles (CPGE) (English: Higher School Preparatory Classes) are part of the French post-secondary education system. They consist of two years of study (extendable to three years) which act as an intensive preparatory course (or cram school) with the main goal of training students for enrolment in one of the grandes écoles. The workload is one of the highest in Europe (29 to 45 contact hours a week, with up to 10 hours of guided tutorials and oral exam sessions). <br/><br/> I specialised in philosophy, working in my second year on 'Politics' and third year on 'Metaphysics'. If you'd like to know more about my passion and interest in Philosophy, you can see what I wrote on my 'About' page."
+        }
     }
 }

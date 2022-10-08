@@ -1,6 +1,5 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
-import HomeView from "../views/HomeView.vue";
 
 Vue.use(VueRouter);
 
@@ -48,7 +47,22 @@ const routes: Array<RouteConfig> = [
 
 const router = new VueRouter({
   routes,
+  scrollBehavior (to, from, savedPosition) {
+    if (to.hash) {
+      return {
+          selector: to.hash,
+          offset: { x: 0, y: 80 }, // avoid blocking the view when having fixed components
+          behavior: 'smooth'
+      };
+  } else if (savedPosition) {
+      return savedPosition;
+  } else {
+      return { x: 0, y: 0 };
+  }
+  }
 });
+
+
 
 router.beforeEach((to, from, next) => {
   if (to.meta && to.meta.title) {

@@ -1,18 +1,23 @@
 <template>
      <div class="resume-grid">
       <div class="resume-container">
-         <h1 id="top"> My Resume </h1>
-         <Container class="header-resume"> Ironically, I am not a big fan of résumés. I think it's a hard exercise of data visualisation, where you can't really win - but you can actually lose. If you are not ready for my complete life story, you can find here a PDF-version of my résumé. Otherwise, let me tell you my story.</Container>
-         <ul>
-            <li> <a href="#philosophy"> Philosophy </a></li>
-            <li> <a href="#Human Resources"> Human Resources </a></li>
-            <li> <a href="#Software Development"> Software Developer </a></li>
-         </ul>
+         <div class="icon-container"><h1 id="top"> My Resume </h1>
+         <a href="https://github.com/HarveyThePooka404" target="_blank"><img src="../../public/icons/github.png" /></a>
+         <a href="https://www.linkedin.com/in/sylvainbuisson/" target="_blank"><img src="../../public/icons/linkedin.png" /></a>
+      </div>
+         <Container class="header-resume"> Ironically, I am not a big fan of résumés. I think it's a hard exercise of data visualisation, where you can't really win - but you can actually lose. 
+            If you are not ready for my complete life story, you can find here a PDF-version of my résumé. Otherwise, let me tell you my story. I've added quick navigation buttons to go to the relevant sections.
+            </Container>
+         <div class="button-container">
+            <router-link to="#philosophy"><button> Philosophy</button></router-link>
+            <router-link to="#human_resources"><button> Human Resources</button></router-link>
+             <router-link to="#software_development"><button> Software Developer</button></router-link>
+         </div>
 
 <!--Dynamic Content  -->
 
       <div v-for="data in resume" :key="data[0]" >
-      <h1 :id="data.name"> {{data.name}} </h1>
+      <h1 :id="data.anchor"> {{data.name}} </h1>
          <div class="flex">
       <p> {{data.exerpt}}</p>
          <ExperienceBlock v-for="experience in data.experiences" :key="experience.jobTitle" :experience="experience"/>
@@ -22,7 +27,8 @@
 
 <!--Dynamic Content  -->
 
-<div class="top-button"> <a href="#top" class="chevron-wrapper"> <span class="chevron"/></a></div>
+<div class="top-button"> <router-link to="#top" class="chevron-wrapper"> <span class="chevron"/></router-link></div>
+      <span class="footer" />
       </div>
      </div>
 </template>
@@ -50,11 +56,46 @@ export default class ResumeView extends Vue {
     
 <style lang='scss'>
      @use '@/assets/stylesheet.scss' as stylesheet;
+     
+     @include stylesheet.devices(mobile) {
+      .top-button {
+         right: 30px;
+         top: 75vh;
+      }
+
+      .button-container {
+         display:flex;
+         flex-flow: column;
+         
+         a button {
+            width: 80vw;
+            margin-bottom: 1em;
+         }
+      }
+     }
+
+     .icon-container {
+      display: flex;
+      align-items: center;
+
+      a:nth-child(2), a:nth-child(3) {
+         margin-left: 15px;
+      }
+
+      img {
+         max-height: 30px;
+         max-width: 30px;
+         cursor: pointer;
+      }
+     }
+
 
      .resume-grid {
+      scroll-behavior: smooth;
       display: flex; 
       flex-flow: column;
       align-items: center;      
+      margin-bottom: 20px;
      }
 
      .top-button {
@@ -68,12 +109,6 @@ export default class ResumeView extends Vue {
 
      .chevron-wrapper {
       position: fixed;
-     }
-
-     @include stylesheet.devices(mobile) {
-      .top-button {
-         right: 20px;
-      }
      }
 
      .chevron::before {
@@ -107,20 +142,45 @@ export default class ResumeView extends Vue {
       position: absolute;
      }
 
-
      .header-resume {
         margin-left: 5vw;
         margin-right: 5vw;
         max-width: 850px;
         justify-self: center;
-        font-size: .8rem;
+        font-size: 1em;
      }
 
-     .left-menu-resume {
-        grid-area: left;
+     .button-container {
+      display: flex;
+      max-width:780px;
+      width: 80%;
+      justify-content: space-around;
+      padding: 1.5em;
+
+      button {
+         background-color: #2E3039;
+         border: none;
+         padding: 1em;
+         font-weight: bold;
+         border-radius: 20px;
+         border: solid 1px #2E3039;
+      }
+
+      a, a:visited {
+         button {
+            text-decoration: none;
+            color: white;
+         }
+      }
+
+      button:hover {
+         cursor: pointer;
+         border: solid 1px stylesheet.$highlight-blue;
+      }
      }
 
-     .content {
-        grid-area: content;
+     .footer {
+      height: 40px;
      }
+     
 </style>
