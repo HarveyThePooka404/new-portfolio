@@ -1,0 +1,62 @@
+{
+    "Software Development": {
+        "name": "Software Development",
+        "exerpt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+        "experiences" : [{
+            "jobTitle": "Project Lead", 
+            "company": "Culmas.io", 
+            "timeRange": "Octobre 2021 - Present", 
+            "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+            "techStack": "Vue / Typescript, GraphQL, Go, Firebase / Cloud Functions"
+        }, {
+            "jobTitle": "Student Software Developer", 
+            "company": "Culmas.io", 
+            "timeRange": "Octobre 2021 - Present", 
+            "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+            "techStack": "Vue / Typescript, GraphQL, Go, Firebase / Cloud Functions"
+        }, {
+            "jobTitle": "Frontend Intern", 
+            "company": "Tamanoir Immersive Studio", 
+            "timeRange": "Octobre 2021 - Present", 
+            "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+            "techStack": "Vue / Typescript, Firebase"
+        }
+    ],
+    "degree": {
+        "degreeTitle": "Multimedia Design - AP degree",
+        "school": "KEA", 
+        "timeRange": "Octobre 2021 - Present", 
+        "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin."
+    }
+    },
+    "Human Resources": {
+        "name": "Human Resources",
+        "exerpt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+        "experiences" : [{
+            "jobTitle": "Project Lead", 
+            "company": "Culmas.io", 
+            "timeRange": "Octobre 2021 - Present", 
+            "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+            "techStack": "Vue / Typescript, GraphQL, Go, Firebase / Cloud Functions"
+        }, {
+            "jobTitle": "Student Software Developer", 
+            "company": "Culmas.io", 
+            "timeRange": "Octobre 2021 - Present", 
+            "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+            "techStack": "Vue / Typescript, GraphQL, Go, Firebase / Cloud Functions"
+        }, {
+            "jobTitle": "Frontend Intern", 
+            "company": "Tamanoir Immersive Studio", 
+            "timeRange": "Octobre 2021 - Present", 
+            "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+            "techStack": "Vue / Typescript, Firebase"
+        }
+    ],
+    "degree": {
+        "degreeTitle": "Multimedia Design - AP degree",
+        "school": "KEA", 
+        "timeRange": "Octobre 2021 - Present", 
+        "experienceContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin."
+    }
+    }
+}
