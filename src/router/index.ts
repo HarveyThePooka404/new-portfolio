@@ -11,7 +11,7 @@ const routes: Array<RouteConfig> = [
       title: "Sylvain Buisson - Home"
     }, 
     component: () =>
-      import(/* webpackChunkName: "home") */ "../views/HomeView.vue"),
+      import(/* webpackChunkName: "home" */ "../views/HomeView.vue"),
   },
   {
     path: "/about",

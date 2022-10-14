@@ -1,0 +1,14 @@
+{
+    "Climbing" : {
+        "name": "Climbing",
+        "definition" : "Lorem Ipsum",
+        "enjoy": "Lorem Ipsum", 
+        "recommendations": "Lorem Ipsum" 
+    }, 
+    "Cooking" : {
+        "name": "Cooking", 
+        "definition" : "It sounds weird to explain 'cooking', but one of the joy of software development is having to match your type against a lot of instances. So cooking is 'the act of preparing food for eating especially by heating : the act of cooking food'. I don't really cook a lot of sweets and desserts - and prefer to cook savory. Why? I think I'm better at eyeballing things, and the precise mesurements of pastry drives me crazy.", 
+        "enjoy": "I've learned cooking while in Australia when I was 17. I was living in a host family, where we were up to 12 at times. My cooking was really impacted by that: I always cook too much, but I also cook for others and the joy of hosting. There were a lot of students from Asia (Korea, Japan, Thailand...) living with me, and it's also a key part of my cooking: cooking is a way of traveling and discovering cultures.", 
+        "recommendations": "<ul> <li>If you are looking for a restaurant in Copenhagen, I'd recommend 'Barr'.</li> <li> If you are looking for a restaurant in Paris, I'd recommend 'Pierre Sang'.</li> <li>If you are looking for a good TV-show, go watch 'Somebody feed Phil' to get a taste of joy and sharing.</li></ul>"
+    }
+}

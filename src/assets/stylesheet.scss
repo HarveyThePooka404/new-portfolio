@@ -9,7 +9,7 @@ $body-font: 'Saroti', sans-serif;
 @mixin devices ($breakpoint) { 
   
     @if $breakpoint == tablet {    
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 815px) {
       @content;
     }
   }
