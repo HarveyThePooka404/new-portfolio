@@ -1,21 +1,14 @@
 <template>
-   <div class="about-grid">
-    <div class="about-container">
-     <h1> About Me </h1>
-     <Container> You probably expected to find a wall of text. I've tried to do things a bit differently, and it's about you asking questions. </Container>
+<PageLayout title="About Me" :headerContent="headerContent">
      <Multiselect v-model="value" :options="options" class="multiselect" placeholder="Curious about a hobby?"/>
-
      <hobby-container :hobby="hobbies[value]"/>
-   </div>
-   
-   </div>
-
+</PageLayout>
 </template>
   
 <script lang='ts'>
 import { Component, Vue } from 'vue-property-decorator';
-import Container from "@/components/layout/Container.vue";
 import HobbyContainer from "@/components/about/HobbyContainer.vue";
+import PageLayout from "@/components/layout/PageLayout.vue"
 
 //https://vue-multiselect.js.org/
 import Multiselect from 'vue-multiselect'
@@ -25,12 +18,14 @@ import hobbies from "@/assets/hobbies.json"
 
 @Component({
   components: {
-    Container, 
     Multiselect, 
-    HobbyContainer
+    HobbyContainer, 
+    PageLayout
   }
 })
 export default class AboutView extends Vue {
+
+  headerContent = "You probably expected to find a wall of text. I've tried to do things a bit differently, and it's about you asking questions."
 
   value = null
   hobbies = hobbies;
@@ -43,9 +38,18 @@ export default class AboutView extends Vue {
 <style lang='scss' scoped>
    @use '@/assets/stylesheet.scss' as stylesheet;
 
+     .multiselect {
+      margin-bottom: 1em;
+      min-width: 850px;
+     }
+     
    @include stylesheet.devices(mobile) {
     .about-grid {
       margin: 0 2em;
+    }
+
+    .multiselect {
+      min-width: inherit;
     }
    }
 
@@ -53,20 +57,16 @@ export default class AboutView extends Vue {
     .about-grid {
       margin: 0 2em;
     }
+
+    .multiselect {
+      min-width: auto;
+    }
    }
 
-   .multiselect {
-    margin: 2em 0;
-   }
    .about-grid {
     display: flex;
     flex-flow: column;
     place-items: center;
    }
 
-   .about-container {
-    max-width: 850px;
-    display: flex;
-    flex-flow: column;
-   }
 </style>

@@ -1,0 +1,20 @@
+{
+    "Portfolio" : {
+        "name": "Portfolio Website", 
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac posuere ligula, vitae auctor magna. Praesent interdum id nulla vel congue. Mauris nec blandit ipsum. Morbi eget neque vitae mi pellentesque sollicitudin at ut nibh. Aenean fringilla sem vulputate nibh vestibulum scelerisque. Proin massa est, bibendum nec nunc eget, vulputate elementum diam. Sed vel mauris tincidunt, volutpat ipsum non, convallis sapien. Phasellus tristique nec quam maximus bibendum. ",
+        "details" : {
+            "Tech Stack" : "Vue / Typescript, SCSS", 
+            "Github Repo" : "<a href='https://github.com/HarveyThePooka404/new-portfolio' target='_blank'> Link </a>",
+            "Link" : "<a href='http://owldesign.dk' target='_blank'> Link </a>"
+        }
+    },
+    "Weekly" : {
+        "name": "Weekly", 
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac posuere ligula, vitae auctor magna. Praesent interdum id nulla vel congue. Mauris nec blandit ipsum. Morbi eget neque vitae mi pellentesque sollicitudin at ut nibh. Aenean fringilla sem vulputate nibh vestibulum scelerisque. Proin massa est, bibendum nec nunc eget, vulputate elementum diam. Sed vel mauris tincidunt, volutpat ipsum non, convallis sapien. Phasellus tristique nec quam maximus bibendum. ",
+        "details" : {
+            "Tech Stack" : "Vue / Typescript, SCSS", 
+            "Github Repo" : "<a href='https://github.com/HarveyThePooka404/new-portfolio' target='_blank'> Link </a>",
+            "Link" : "<a href='http://owldesign.dk' target='_blank'> Link </a>"
+        }
+    }
+}

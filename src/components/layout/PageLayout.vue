@@ -2,11 +2,13 @@
      <div class="page-layout">
         <div class="page-content">
         <div class="header-container">
-         <h1> {{ title }} </h1>
+            <div class="title-container"> 
+         <h1> {{ title }} </h1> <slot name="icons"/>
+         </div>
          <Container class="header-resume"> {{headerContent}} </Container>
-         <slot name="header-options" />
+         <slot name="options" />
         </div>
-        <div>
+        <div class="content">
             <slot />
         </div>
         </div>
@@ -40,19 +42,43 @@ export default class PageLayout extends Vue {
       margin-bottom: 20px;
      }
 
+    @include stylesheet.devices(mobile) {
+        .page-layout {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+
+    @include stylesheet.devices(tablet) {
+        .page-layout {
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+    }
+
      .page-content {
-        max-width: 1050px;
-      display: flex; 
-      flex-flow: column;
-      align-items: center;
+        max-width: 850px;
+        display: flex; 
+        flex-flow: column;
+        align-items: center;
+        position: relative;
+        width: 100%;
+     }
+
+     .content {
+        width: 100%;
      }
 
      .header-resume {
-        margin-left: 5vw;
-        margin-right: 5vw;
         max-width: 850px;
         justify-self: center;
         font-size: 1em;
         margin-bottom: 20px;
+     }
+     
+
+     .title-container {
+        display: flex;
+        justify-content: center;
      }
 </style>

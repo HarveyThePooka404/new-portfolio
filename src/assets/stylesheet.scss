@@ -3,8 +3,10 @@
 $base-color: white;
 $highlight-blue: #36A3FF;
 $background-color: #1F2028;
+$container-color: #253345;
 $title-font: 'Ranade', sans-serif;
 $body-font: 'Saroti', sans-serif;
+
 
 @mixin devices ($breakpoint) { 
   

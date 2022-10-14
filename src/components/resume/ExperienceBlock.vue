@@ -46,7 +46,7 @@ export default class ExperienceBlock extends Vue {
         padding: 2em;
         position: relative;
         margin-top: 2em;
-        width: 100%;
+        width: 95%;
         &:hover {
             cursor: pointer;
             border: solid 1px stylesheet.$highlight-blue
@@ -65,6 +65,10 @@ export default class ExperienceBlock extends Vue {
      }
 
     @include stylesheet.devices(mobile) {
+
+        .experience-container {
+            width: 90%;
+        }
 
     .experienceContent {
         text-align: left;

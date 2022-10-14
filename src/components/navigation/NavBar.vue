@@ -23,17 +23,18 @@ import BurgerMenu from "./BurgerMenu.vue";
 })
 export default class NavBar extends Vue {
   links = [
-    {
-      name: "Portfolio",
-      link: "/portfolio",
-    }, {
+        {
+      name: "Resume", 
+      link: "/resume"
+    },
+     {
       name: "About", 
       link: "/about"
     },
     {
-      name: "Resume", 
-      link: "/resume"
-    }
+      name: "Portfolio",
+      link: "/portfolio",
+    },
   ];
 }
 </script>

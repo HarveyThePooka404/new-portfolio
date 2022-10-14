@@ -1,21 +1,20 @@
 <template>
-     <div class="resume-grid">
-      <div class="resume-container">
-         <div class="icon-container"><h1 id="top"> My Resume </h1>
-'         <a href="https://github.com/HarveyThePooka404" target="_blank"><img src="../../public/icons/github.png" /></a>
-         <a href="https://www.linkedin.com/in/sylvainbuisson/" target="_blank"><img src="../../public/icons/linkedin.png" /></a>'
+<PageLayout title="My Resume" :headerContent="headerContent">
+   <template v-slot:icons>
+      <div class="icon-container">
+         <a href="https://github.com/HarveyThePooka404" target="_blank" id="top"><img src="../../public/icons/github.png" /></a>
+         <a href="https://www.linkedin.com/in/sylvainbuisson/" target="_blank"><img src="../../public/icons/linkedin.png" /></a>
       </div>
-         <Container class="header-resume"> Ironically, I am not a big fan of résumés. I think it's a hard exercise of data visualisation, where you can't really win - but you can actually lose. 
-            If you are not ready for my complete life story, you can find here a PDF-version of my résumé. Otherwise, let me tell you my story. I've added quick navigation buttons to go to the relevant sections. You can learn more about an experience by clicking on it. 
-            </Container>
+   </template>
+      <template v-slot:options>
          <div class="button-container">
             <router-link to="#philosophy"><button> Philosophy</button></router-link>
             <router-link to="#human_resources"><button> Human Resources</button></router-link>
              <router-link to="#software_development"><button> Software Developer</button></router-link>
          </div>
+      </template>
 
 <!--Dynamic Content  -->
-
       <div v-for="data in resume" :key="data[0]" >
       <h1 :id="data.anchor"> {{data.name}} </h1>
          <div class="flex">
@@ -24,16 +23,13 @@
          <DegreeBlock :degree="data.degree"/>
          </div>
       </div>
-
 <!--Dynamic Content  -->
 
 <div class="top-button"> <router-link to="#top" class="chevron-wrapper"> <span class="chevron"/></router-link></div>
-      <span class="footer" />
-      </div>
-     </div>
+</PageLayout>
 </template>
     
-<script lang='ts'>
+<script lang='ts' scoped>
 import { Component, Vue } from 'vue-property-decorator';
 
 import Container from "../components/layout/Container.vue";
@@ -47,11 +43,14 @@ import resume from "../assets/resume.json";
     components: {
         Container, 
         ExperienceBlock,
-        DegreeBlock
+        DegreeBlock, 
+        PageLayout
     }
 })
 export default class ResumeView extends Vue {
    resume = resume
+
+   headerContent = "Ironically, I am not a big fan of résumés. I think it's a hard exercise of data visualisation, where you can't really win - but you can actually lose. If you are not ready for my complete life story, you can find here a PDF-version of my résumé. Otherwise, let me tell you my story. I've added quick navigation buttons to go to the relevant sections. You can learn more about an experience by clicking on it. "
 }
 </script>
     
@@ -83,7 +82,7 @@ export default class ResumeView extends Vue {
       display: flex;
       align-items: center;
 
-      a:nth-child(2), a:nth-child(3) {
+      a:nth-child(1), a:nth-child(2) {
          margin-left: 15px;
       }
 
@@ -94,21 +93,12 @@ export default class ResumeView extends Vue {
       }
      }
 
-
-     .resume-grid {
-      scroll-behavior: smooth;
-      display: flex; 
-      flex-flow: column;
-      align-items: center;      
-      margin-bottom: 20px;
-     }
-
      .top-button {
       a:visited {
          color: white;
       }
       position: absolute;
-      right: 50px;
+      right: -50px;
       top: 85vh;
      }
 
@@ -135,30 +125,10 @@ export default class ResumeView extends Vue {
       flex-flow: column;
       align-items: center;
       align-self: center;
-      margin-left: 5vw;
-      margin-right: 5vw;
-     }
-
-     .resume-container {
-      max-width: 1050px;
-      display: flex; 
-      flex-flow: column;
-      align-items: center;
-      position: absolute;
-     }
-
-     .header-resume {
-        margin-left: 5vw;
-        margin-right: 5vw;
-        max-width: 850px;
-        justify-self: center;
-        font-size: 1em;
      }
 
      .button-container {
       display: flex;
-      max-width:780px;
-      width: 80%;
       justify-content: space-around;
       padding: 1.5em;
 

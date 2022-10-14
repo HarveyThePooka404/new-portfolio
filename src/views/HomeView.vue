@@ -1,26 +1,18 @@
 <template>
   <div class="home">
-    <Section>
-      <H1 title="My name is Sylvain Buisson, I am a Fullstack Developer." />
-    </Section>
-    <Section>
       <Container class="container-home">
         <p class="p-intro"> If you're here, you'd probably like to know more about me. We can probably get you started with a <router-link to="/portfolio">porftolio</router-link> or a <router-link to="/resume">resume</router-link>. We're still hard at work to provide you with more content soon.  </p>
       </Container>
-    </Section>
+
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import Section from "../components/layout/Section.vue"
-import H1 from "../components/layout/H1.vue";
 import Container from "../components/layout/Container.vue";
 
 @Component({
   components: {
-    Section, 
-    H1,
     Container
   }
 })
