@@ -1,5 +1,5 @@
 <template>
-     <div class="experience-container">
+     <div class="experience-container" @click="showContent">
         <div class="experience-title">
             <div class="experience-title-wrapper">
             <h2> <span>{{experience.jobTitle}}</span></h2>
@@ -7,12 +7,14 @@
                 </div>
             <span> {{experience.timeRange}} </span>
         </div>
+        <div v-show="collapsableOpen" class="collapsable-content">
         <p class="experienceContent">
             <span v-html="experience.experienceContent"></span>
         </p>    
         <div v-if="experience.techStack" class="techStack">
             <h3> Tech Stack </h3>
             <span>  {{experience.techStack}} </span>
+        </div>
         </div>
      </div>
 </template>
@@ -23,6 +25,12 @@ import { Component, Vue, Prop } from 'vue-property-decorator';
 @Component({})
 export default class ExperienceBlock extends Vue {
     @Prop() experience!: Record<string, unknown>
+
+    collapsableOpen = false;
+
+    showContent() {
+        this.collapsableOpen = !this.collapsableOpen
+    }
 }
 </script>
     
@@ -33,10 +41,16 @@ export default class ExperienceBlock extends Vue {
 
      .experience-container {
         background-color: #253345;
+        border: solid 1px #253345;
         border-radius: 20px;
         padding: 2em;
         position: relative;
         margin-top: 2em;
+        width: 100%;
+        &:hover {
+            cursor: pointer;
+            border: solid 1px stylesheet.$highlight-blue
+        }
      }
 
      .experienceContent {

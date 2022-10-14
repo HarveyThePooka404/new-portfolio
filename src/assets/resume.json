@@ -2,7 +2,7 @@
     "Software Development": {
         "name": "Software Development",
         "anchor": "software_development", 
-        "exerpt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+        "exerpt" : "I’ve always wanted to challenge myself intellectually, and help others do what they do best. Being a software developer means that now I can create the tools for it (while hopefully, having fun in the process). After moving to Denmark in 2018, I went back to school for two years to learn Frontend Development, and then joined Culmas.io as a Fullstack Developer.  I’m passionate about Web technologies (and since I’ve never known anything but Javascript, I don’t hate it that much).",
         "experiences" : [{
             "jobTitle": "Project Lead", 
             "company": "Culmas.io", 
@@ -33,7 +33,7 @@
     "Human Resources": {
         "name": "Human Resources",
         "anchor": "human_resources",
-        "exerpt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+        "exerpt" : "After my bachelor in Philosophy, I became interested in companies’ organization and fulfillment at work. I would love to say that it has nothing to do with being taught by one of the French experts on Marx - but if you meet me, you’ll learn that it’s a lie. Work should help you develop and express yourself, and so I went into HR, focused on Learning and Development. I started at Ubisoft, a French video game company, expecting people to be much happier than they were, and closed that period of my life at a micro-finance institution, where I learned the power and challenges of HRIS.",
         "experiences" : [{
             "jobTitle": "Digital Training & Development Project Manager", 
             "company": "Microcred / Baobab", 
@@ -61,7 +61,7 @@
     "Philosophy": {
         "name": "Philosophy", 
         "anchor": "philosophy", 
-        "exerpt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus euismod ligula vel sodales. Ut varius sem non lorem tempus faucibus. Cras aliquam, neque a luctus convallis, libero dui volutpat risus, non efficitur eros ipsum in tortor. Pellentesque quis nisi magna. Donec eget venenatis ex. Duis ut enim augue. Mauris ut ullamcorper arcu. Suspendisse condimentum eu odio vel semper. Nunc feugiat arcu vel metus iaculis sollicitudin.",
+        "exerpt" : "Philosophy is my forever passion. As a teenager in high-school, I was asked “Would you like to know the fabric of the universe?” and there was no coming back. Philosophy taught me about rational thinking, being systematic and questioning everything - I feel that those were qualities essential for me to be a good HR and Software Developer. I’m more interested in Metaphysics in general (please don’t ask me about philosophy of art, I don’t understand it) - and to be specific, the critique of substance (from Nietzsche to Whitehead).",
         "degree": {
             "degreeTitle": "Bachelor in Philosophy", 
             "school": "Lycée Jules Ferry",

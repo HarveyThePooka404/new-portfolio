@@ -6,7 +6,7 @@
          <a href="https://www.linkedin.com/in/sylvainbuisson/" target="_blank"><img src="../../public/icons/linkedin.png" /></a>
       </div>
          <Container class="header-resume"> Ironically, I am not a big fan of résumés. I think it's a hard exercise of data visualisation, where you can't really win - but you can actually lose. 
-            If you are not ready for my complete life story, you can find here a PDF-version of my résumé. Otherwise, let me tell you my story. I've added quick navigation buttons to go to the relevant sections.
+            If you are not ready for my complete life story, you can find here a PDF-version of my résumé. Otherwise, let me tell you my story. I've added quick navigation buttons to go to the relevant sections. You can learn more about an experience by clicking on it. 
             </Container>
          <div class="button-container">
             <router-link to="#philosophy"><button> Philosophy</button></router-link>
@@ -19,7 +19,7 @@
       <div v-for="data in resume" :key="data[0]" >
       <h1 :id="data.anchor"> {{data.name}} </h1>
          <div class="flex">
-      <p> {{data.exerpt}}</p>
+      <p class="data-exerpt"> {{data.exerpt}}</p>
          <ExperienceBlock v-for="experience in data.experiences" :key="experience.jobTitle" :experience="experience"/>
          <DegreeBlock :degree="data.degree"/>
          </div>
@@ -72,6 +72,10 @@ export default class ResumeView extends Vue {
             margin-bottom: 1em;
          }
       }
+     }
+
+     .data-exerpt {
+      text-align: justify;
      }
 
      .icon-container {
