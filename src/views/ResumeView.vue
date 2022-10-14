@@ -2,8 +2,8 @@
      <div class="resume-grid">
       <div class="resume-container">
          <div class="icon-container"><h1 id="top"> My Resume </h1>
-         <a href="https://github.com/HarveyThePooka404" target="_blank"><img src="../../public/icons/github.png" /></a>
-         <a href="https://www.linkedin.com/in/sylvainbuisson/" target="_blank"><img src="../../public/icons/linkedin.png" /></a>
+'         <a href="https://github.com/HarveyThePooka404" target="_blank"><img src="../../public/icons/github.png" /></a>
+         <a href="https://www.linkedin.com/in/sylvainbuisson/" target="_blank"><img src="../../public/icons/linkedin.png" /></a>'
       </div>
          <Container class="header-resume"> Ironically, I am not a big fan of résumés. I think it's a hard exercise of data visualisation, where you can't really win - but you can actually lose. 
             If you are not ready for my complete life story, you can find here a PDF-version of my résumé. Otherwise, let me tell you my story. I've added quick navigation buttons to go to the relevant sections. You can learn more about an experience by clicking on it. 
@@ -38,7 +38,8 @@ import { Component, Vue } from 'vue-property-decorator';
 
 import Container from "../components/layout/Container.vue";
 import ExperienceBlock from "../components/resume/ExperienceBlock.vue";
-import DegreeBlock from "../components/resume/DegreeBlock.vue"
+import DegreeBlock from "../components/resume/DegreeBlock.vue";
+import PageLayout from "@/components/layout/PageLayout.vue"
 
 import resume from "../assets/resume.json";
     
