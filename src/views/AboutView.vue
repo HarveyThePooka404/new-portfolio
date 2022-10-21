@@ -1,6 +1,6 @@
 <template>
 <PageLayout title="About Me" :headerContent="headerContent">
-     <Multiselect v-model="value" :options="options" class="multiselect" placeholder="Curious about a hobby?"/>
+     <Multiselect v-model="value" :options="options"  class="multiselect-custom--width" placeholder="Curious about a hobby?"/>
      <hobby-container v-if="value" :hobby="hobbies[value]"/>
 </PageLayout>
 </template>
@@ -34,35 +34,15 @@ export default class AboutView extends Vue {
 } 
 </script>
 
-<style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
 <style lang='scss'>
 @use '@/assets/stylesheet.scss' as stylesheet;
-
-
-.multiselect__option--selected,
-.multiselect__option--selected:after,
-.multiselect__option--selected.multiselect__option--highlight,
-.multiselect__option--selected.multiselect__option--highlight:after  {
-  background: stylesheet.$highlight-blue;
-  color: white;
-}
-
-.multiselect__option.multiselect__option--highlight,
-.multiselect__option.multiselect__option--highlight:after {
-  background: stylesheet.$container-color;
-}
-
-     .multiselect {
-      margin-bottom: 1em;
-      min-width: 850px;
-     }
      
    @include stylesheet.devices(mobile) {
     .about-grid {
       margin: 0 2em;
     }
 
-    .multiselect {
+    .multiselect-custom--width {
       min-width: inherit;
     }
    }
@@ -72,7 +52,7 @@ export default class AboutView extends Vue {
       margin: 0 2em;
     }
 
-    .multiselect {
+    .multiselect-custom--width {
       min-width: auto;
     }
    }

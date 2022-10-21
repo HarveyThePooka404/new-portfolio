@@ -8,42 +8,67 @@ $title-font: 'Ranade', sans-serif;
 $body-font: 'Saroti', sans-serif;
 
 
-@mixin devices ($breakpoint) { 
-  
-    @if $breakpoint == tablet {    
+@mixin devices ($breakpoint) {
+
+  @if $breakpoint ==tablet {
     @media only screen and (max-width: 815px) {
       @content;
     }
   }
- 
-  @if $breakpoint == mobile {
+
+  @if $breakpoint ==mobile {
     @media only screen and (max-width: 640px) {
       @content;
     }
   }
 }
+
+.flex {
+  display: flex;
+
+}
+
 .underline-hover {
-    position: relative;
+  position: relative;
 }
 
 .underline-hover::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: $highlight-blue;
-    transform-origin: center;
-    transition: transform 0.25s ease-out;
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: $highlight-blue;
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
 }
 
 .underline-hover:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .underline-hover:hover::after {
-    transform: scaleX(1);
-    transform-origin: center;
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+//vue-multiselect colors
+.multiselect__option--selected,
+.multiselect__option--selected:after,
+.multiselect__option--selected.multiselect__option--highlight,
+.multiselect__option--selected.multiselect__option--highlight:after {
+  background: $highlight-blue;
+  color: white;
+}
+
+.multiselect__option.multiselect__option--highlight,
+.multiselect__option.multiselect__option--highlight:after {
+  background: $container-color;
+}
+
+.multiselect-custom--width {
+  margin-bottom: 1em;
+  min-width: 850px;
 }

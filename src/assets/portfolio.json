@@ -7,5 +7,14 @@
             "Github Repo": "<a href='https://github.com/HarveyThePooka404/new-portfolio' target='_blank'> Link </a>",
             "Link": "<a href='http://owldesign.dk' target='_blank'> Link </a>"
         }
+    },
+    "Weekly": {
+        "name": "Weekly",
+        "description": "Having a portfolio website feels like a 'must-have' in the current job market. Somehow, developers are expected to be 'on' all the time, have multiple personal projects, and a grasp of most technologies on the market. So here is me presenting myself. There is no real technical difficulties tackled in this project, but it should be a smooth a nice experience for you as a user. If you'd like to look at something in particular, please note that I am using JSON for my content (so I don't have to write it again when I'll have to do a third version of this website in a different tech).",
+        "details": {
+            "Tech Stack": "NextJS / Typescript, TailwindUI",
+            "Github Repo": "<a href='https://github.com/HarveyThePooka404/new-portfolio' target='_blank'> Link </a>",
+            "Link": "<a href='http://owldesign.dk' target='_blank'> Link </a>"
+        }
     }
 }
