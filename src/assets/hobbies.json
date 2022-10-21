@@ -1,14 +1,32 @@
 {
-    "Climbing" : {
+    "Climbing": {
         "name": "Climbing",
-        "definition" : "Lorem Ipsum",
-        "enjoy": "Lorem Ipsum", 
-        "recommendations": "Lorem Ipsum" 
-    }, 
-    "Cooking" : {
-        "name": "Cooking", 
-        "definition" : "It sounds weird to explain 'cooking', but one of the joy of software development is having to match your type against a lot of instances. So cooking is 'the act of preparing food for eating especially by heating : the act of cooking food'. I don't really cook a lot of sweets and desserts - and prefer to cook savory. Why? I think I'm better at eyeballing things, and the precise mesurements of pastry drives me crazy.", 
-        "enjoy": "I've learned cooking while in Australia when I was 17. I was living in a host family, where we were up to 12 at times. My cooking was really impacted by that: I always cook too much, but I also cook for others and the joy of hosting. There were a lot of students from Asia (Korea, Japan, Thailand...) living with me, and it's also a key part of my cooking: cooking is a way of traveling and discovering cultures.", 
+        "definition": "Bouldering is a form of free climbing that is performed on small rock formations or artificial rock walls without the use of ropes or harnesses. It’s not to be confused with “Lead” climbing (with giant walls), and you’ll never catch me higher than 4 meters off the ground. In a climbing gym, a ‘route setter’ creates a ‘problem’ (some technically harder part of a route) for you to play around.",
+        "enjoy": "I think bouldering is one of the most ‘complete’ sport there is: it’s a whole body sport, involving every muscles and core, while necessitating to think about your movements (and some flexibility), it’s a social sport, where you’ll very easily talk to someone working on the same route as you, and finally it’s an intellectual challenge (a puzzle) to solve the problem created by the setter.",
+        "recommendations": "<ul><li>I currently climb at Beta Boulders, they have great routes, a very clean gym and coworking spaces.</li></ul>"
+    },
+    "Cooking": {
+        "name": "Cooking",
+        "definition": "It sounds weird to explain 'cooking', but one of the joy of software development is having to match your type against a lot of instances. So cooking is 'the act of preparing food for eating especially by heating : the act of cooking food'. I don't really cook a lot of sweets and desserts - and prefer to cook savory. Why? I think I'm better at eyeballing things, and the precise mesurements of pastry drives me crazy.",
+        "enjoy": "I've learned cooking while in Australia when I was 17. I was living in a host family, where we were up to 12 at times. My cooking was really impacted by that: I always cook too much, but I also cook for others and the joy of hosting. There were a lot of students from Asia (Korea, Japan, Thailand...) living with me, and it's also a key part of my cooking: cooking is a way of traveling and discovering cultures.",
         "recommendations": "<ul> <li>If you are looking for a restaurant in Copenhagen, I'd recommend 'Barr'.</li> <li> If you are looking for a restaurant in Paris, I'd recommend 'Pierre Sang'.</li> <li>If you are looking for a good TV-show, go watch 'Somebody feed Phil' to get a taste of joy and sharing.</li></ul>"
+    },
+    "Birding": {
+        "name": "Birding",
+        "definition": "Birdwatching, or birding, is the observing of birds, either as a recreational activity or as a form of citizen science. Personally, I use my Nikon camera to photograph wild birds in the amazing natural sites around Copenhagen (and hopefully around the world more). Cornell University has made an amazing app called Merlin where I can upload my pictures and it keeps track of all the birds I’ve seen. Yes, it’s exactly like Pokemon Go.",
+        "enjoy": "Birding has always been a family passion, and when I was younger my mother would take me on birding trips. It’s an amazing way to discover nature, have hikes, enjoy the silence and patience in a small wooden cabin. It also allows me to practice photography, in one of the most complex and rewarding contexts there is. On a side note, Cornell (among others) has done great things with their app Merlin and the machine learning features. Now, the app can identify most bird pictures, and they have been working on a sound ID feature (honestly, still in progress).",
+        "recommendations": "<ul><li>Join your local group! A lot of local birding groups have introduction classes with a guide.</li><li>For the local people, Kalvebod Fælled is an amazing place to have in a European capital. <a href='https://www.instagram.com/emilpoulsen.dk/' target='_blank'> Emil Poulsen </a> is also a great person to introduce you to it.</li></ul>"
+    },
+    "Tattoo": {
+        "name": "Tattoo",
+        "definition": "A tattoo is a form of body modification made by inserting tattoo ink, dyes, and/or pigments, either indelible or temporary, into the dermis layer of the skin to form a design. Humans have marked their bodies with tattoos for thousands of years. These permanent designs—sometimes plain, sometimes elaborate, always personal—have served as amulets, status symbols, declarations of love, signs of religious beliefs, adornments and even forms of punishment",
+        "enjoy": "In 2015, I had health issues, and it was a journey after that to feel at home in my body. I’ve read somewhere that getting a tattoo is making yourself at home in a house you didn’t get to choose.  And it has been a great way to express myself (some sort of inside out deal). As most people with tattoos will tell you, the first one is always layered with meanings, and by the third one you’re there for fun.",
+        "recommendations": "<ul><li><a href='https://www.instagram.com/kathrin.ttt/' target='_blank'>Kathrin</a> (Copenhagen)</li><li> <a href='https://www.instagram.com/tattsson/' target='_blank'>Michel</a> (Malmø)<li><a href='https://www.instagram.com/aygultattoo/' target='_blank'>Aygul</a> (London)</ul>"
+    },
+    "Games": {
+        "name": "Games (video games & board games)",
+        "definition": "A game is a structured form of play, usually undertaken for entertainment or fun, and sometimes used as an educational tool. Hans Georg Gadamer made great texts on ‘Play’ and the experience of game - participation in a game, or a state of play, means a mode of being defined by the rules of the game.",
+        "enjoy": "I’ve always loved how video games range from puzzles to adventures. I grew up playing Final Fantasy 7, which I think also covers my love for Sci-fi and space opera. It was such an epic adventure, and I would include Sky of Arcadia that also moved me in the same ways. Later, the amazing Last of Us finally took what I believed to be entertainment into some of the greatest story telling, using the full potential of gameplay as a narrative tool. If you want to understand ‘Gamification’ please, don’t just add badges to your software - but understand how game design is used to create emotions in the player.",
+        "recommendations": "<ul><li>The Last of Us (1 & 2)</li><li> Slay the Spire (great deckbuilder rogue-like)</li><li> League of Legends (I know, a hot take, but its expanded universe has no comparaison: Arcane and K/DA for examples)</li><li>Twilight Imperium (for an 12 hours board game experience) and Wingspan (for the birding experience)</li></ul>"
     }
 }

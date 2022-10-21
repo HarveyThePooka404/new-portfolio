@@ -5,7 +5,7 @@
             <div class="title-container"> 
          <h1> {{ title }} </h1> <slot name="icons"/>
          </div>
-         <Container class="header-resume"> {{headerContent}} </Container>
+         <Container class="header-resume" :content="headerContent" />
          <slot name="options" />
         </div>
         <div class="content">

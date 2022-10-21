@@ -1,15 +1,15 @@
 <template>
      <div class="container">
-        <slot />
+        <p v-html="content" />
      </div>
 </template>
     
 <script lang='ts'>
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue, Prop } from 'vue-property-decorator';
     
 @Component({})
 export default class Container extends Vue {
-
+   @Prop() content!: string
 }
 </script>
     
@@ -23,6 +23,11 @@ export default class Container extends Vue {
         font-family: stylesheet.$body-font;
         text-align: left;
         font-size: 1.2rem;
+
+        p {
+         padding: 0;
+         margin: 0;
+        }
      }
 
 </style>

@@ -6,7 +6,7 @@
             </div>
 
             <div class="detail-container">
-                <h3> Details </h3>
+                <h3 class="detail-title"> Details </h3>
                 <div v-for="detail in Object.entries(project.details)" :key="detail[0]">
                     <div class="detail">
                         <span> {{detail[0]}} </span> <p v-html="detail[1]" />
@@ -45,6 +45,9 @@ export default class PortfolioProject extends Vue {
 
      .project-content {
         column-count: 2;
+        column-gap: 6%;
+        text-align: justify;
+        text-justify: auto;
         place-items: center;
         padding-top: .5rem;
         
@@ -52,6 +55,11 @@ export default class PortfolioProject extends Vue {
             padding: 0;
             margin: 0;
         }
+     }
+
+     .detail-title {
+        color: stylesheet.$highlight-blue;
+        margin-bottom: 5px;
      }
 
      .detail {

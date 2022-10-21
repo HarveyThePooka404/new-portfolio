@@ -43,6 +43,10 @@ body {
   background-color:	stylesheet.$background-color;
 }
 
+a, a:visited {
+  color: white;
+}
+
 nav {
   padding: 30px;
 

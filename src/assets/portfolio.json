@@ -1,20 +1,11 @@
 {
-    "Portfolio" : {
-        "name": "Portfolio Website", 
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac posuere ligula, vitae auctor magna. Praesent interdum id nulla vel congue. Mauris nec blandit ipsum. Morbi eget neque vitae mi pellentesque sollicitudin at ut nibh. Aenean fringilla sem vulputate nibh vestibulum scelerisque. Proin massa est, bibendum nec nunc eget, vulputate elementum diam. Sed vel mauris tincidunt, volutpat ipsum non, convallis sapien. Phasellus tristique nec quam maximus bibendum. ",
-        "details" : {
-            "Tech Stack" : "Vue / Typescript, SCSS", 
-            "Github Repo" : "<a href='https://github.com/HarveyThePooka404/new-portfolio' target='_blank'> Link </a>",
-            "Link" : "<a href='http://owldesign.dk' target='_blank'> Link </a>"
-        }
-    },
-    "Weekly" : {
-        "name": "Weekly", 
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac posuere ligula, vitae auctor magna. Praesent interdum id nulla vel congue. Mauris nec blandit ipsum. Morbi eget neque vitae mi pellentesque sollicitudin at ut nibh. Aenean fringilla sem vulputate nibh vestibulum scelerisque. Proin massa est, bibendum nec nunc eget, vulputate elementum diam. Sed vel mauris tincidunt, volutpat ipsum non, convallis sapien. Phasellus tristique nec quam maximus bibendum. ",
-        "details" : {
-            "Tech Stack" : "Vue / Typescript, SCSS", 
-            "Github Repo" : "<a href='https://github.com/HarveyThePooka404/new-portfolio' target='_blank'> Link </a>",
-            "Link" : "<a href='http://owldesign.dk' target='_blank'> Link </a>"
+    "Portfolio": {
+        "name": "Portfolio Website",
+        "description": "Having a portfolio website feels like a 'must-have' in the current job market. Somehow, developers are expected to be 'on' all the time, have multiple personal projects, and a grasp of most technologies on the market. So here is me presenting myself. There is no real technical difficulties tackled in this project, but it should be a smooth a nice experience for you as a user. If you'd like to look at something in particular, please note that I am using JSON for my content (so I don't have to write it again when I'll have to do a third version of this website in a different tech).",
+        "details": {
+            "Tech Stack": "Vue / Typescript, SCSS",
+            "Github Repo": "<a href='https://github.com/HarveyThePooka404/new-portfolio' target='_blank'> Link </a>",
+            "Link": "<a href='http://owldesign.dk' target='_blank'> Link </a>"
         }
     }
 }

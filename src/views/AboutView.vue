@@ -1,7 +1,7 @@
 <template>
 <PageLayout title="About Me" :headerContent="headerContent">
      <Multiselect v-model="value" :options="options" class="multiselect" placeholder="Curious about a hobby?"/>
-     <hobby-container :hobby="hobbies[value]"/>
+     <hobby-container v-if="value" :hobby="hobbies[value]"/>
 </PageLayout>
 </template>
   
@@ -30,13 +30,27 @@ export default class AboutView extends Vue {
   value = null
   hobbies = hobbies;
 
-  options: string[] = Object.keys(hobbies);
+  options: string[] = Object.keys(hobbies).sort();
 } 
 </script>
 
 <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
-<style lang='scss' scoped>
-   @use '@/assets/stylesheet.scss' as stylesheet;
+<style lang='scss'>
+@use '@/assets/stylesheet.scss' as stylesheet;
+
+
+.multiselect__option--selected,
+.multiselect__option--selected:after,
+.multiselect__option--selected.multiselect__option--highlight,
+.multiselect__option--selected.multiselect__option--highlight:after  {
+  background: stylesheet.$highlight-blue;
+  color: white;
+}
+
+.multiselect__option.multiselect__option--highlight,
+.multiselect__option.multiselect__option--highlight:after {
+  background: stylesheet.$container-color;
+}
 
      .multiselect {
       margin-bottom: 1em;
@@ -68,5 +82,4 @@ export default class AboutView extends Vue {
     flex-flow: column;
     place-items: center;
    }
-
 </style>
