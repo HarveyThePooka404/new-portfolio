@@ -1,22 +1,20 @@
 <template>
-  <div class="home">
-      <Container class="container-home">
-        <p class="p-intro"> If you're here, you'd probably like to know more about me. We can probably get you started with a <router-link to="/portfolio">porftolio</router-link> or a <router-link to="/resume">resume</router-link>. We're still hard at work to provide you with more content soon.  </p>
-      </Container>
-
-  </div>
+  <PageLayout title="Hello, I am Sylvain" :headerContent="headerContent">
+  </PageLayout>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import Container from "../components/layout/Container.vue";
+import PageLayout from "../components/layout/PageLayout.vue"
 
 @Component({
   components: {
-    Container
+    PageLayout,
   }
 })
-export default class HomeView extends Vue {}
+export default class HomeView extends Vue {
+  headerContent = "If you're here, you'd probably like to know more about me. We can probably get you started with a porftolio or a resume.We're still hard at work to provide you with more content soon."
+}
 </script>
 
 <style lang="scss" scoped>

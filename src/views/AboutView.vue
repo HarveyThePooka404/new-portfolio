@@ -1,7 +1,7 @@
 <template>
 <PageLayout title="About Me" :headerContent="headerContent">
-     <Multiselect v-model="value" :options="options" class="multiselect" placeholder="Curious about a hobby?"/>
-     <hobby-container :hobby="hobbies[value]"/>
+     <Multiselect v-model="value" :options="options"  class="multiselect-custom--width" placeholder="Curious about a hobby?"/>
+     <hobby-container v-if="value" :hobby="hobbies[value]"/>
 </PageLayout>
 </template>
   
@@ -30,25 +30,19 @@ export default class AboutView extends Vue {
   value = null
   hobbies = hobbies;
 
-  options: string[] = Object.keys(hobbies);
+  options: string[] = Object.keys(hobbies).sort();
 } 
 </script>
 
-<style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
-<style lang='scss' scoped>
-   @use '@/assets/stylesheet.scss' as stylesheet;
-
-     .multiselect {
-      margin-bottom: 1em;
-      min-width: 850px;
-     }
+<style lang='scss'>
+@use '@/assets/stylesheet.scss' as stylesheet;
      
    @include stylesheet.devices(mobile) {
     .about-grid {
       margin: 0 2em;
     }
 
-    .multiselect {
+    .multiselect-custom--width {
       min-width: inherit;
     }
    }
@@ -58,7 +52,7 @@ export default class AboutView extends Vue {
       margin: 0 2em;
     }
 
-    .multiselect {
+    .multiselect-custom--width {
       min-width: auto;
     }
    }
@@ -68,5 +62,4 @@ export default class AboutView extends Vue {
     flex-flow: column;
     place-items: center;
    }
-
 </style>

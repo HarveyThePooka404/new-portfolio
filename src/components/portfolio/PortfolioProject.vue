@@ -1,18 +1,18 @@
 <template>
      <div class="project-container">
-         <h2> {{project.name}} </h2>
+         <h2> {{project[1].name}} </h2>
          <div class="project-content">
-            <p> {{project.description}}  </p>
+            <p> {{project[1].description}}  </p>
             </div>
 
-            <div class="detail-container">
-                <h3> Details </h3>
-                <div v-for="detail in Object.entries(project.details)" :key="detail[0]">
+             <div class="detail-container">
+                <h3 class="detail-title"> Details </h3>
+                <div v-for="detail in Object.entries(project[1].details)" :key="detail[0]">
                     <div class="detail">
                         <span> {{detail[0]}} </span> <p v-html="detail[1]" />
                     </div>
                 </div>
-            </div>
+            </div> 
      </div>
 </template>
     
@@ -22,6 +22,10 @@ import { Component, Vue, Prop } from 'vue-property-decorator';
 @Component({})
 export default class PortfolioProject extends Vue {
     @Prop() project!: any
+
+    mounted() {
+        console.log(this.project)
+    }
 }
 </script>
     
@@ -45,6 +49,9 @@ export default class PortfolioProject extends Vue {
 
      .project-content {
         column-count: 2;
+        column-gap: 6%;
+        text-align: justify;
+        text-justify: auto;
         place-items: center;
         padding-top: .5rem;
         
@@ -52,6 +59,11 @@ export default class PortfolioProject extends Vue {
             padding: 0;
             margin: 0;
         }
+     }
+
+     .detail-title {
+        color: stylesheet.$highlight-blue;
+        margin-bottom: 5px;
      }
 
      .detail {

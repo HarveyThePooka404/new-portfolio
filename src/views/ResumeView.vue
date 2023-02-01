@@ -50,7 +50,7 @@ import resume from "../assets/resume.json";
 export default class ResumeView extends Vue {
    resume = resume
 
-   headerContent = "Ironically, I am not a big fan of résumés. I think it's a hard exercise of data visualisation, where you can't really win - but you can actually lose. If you are not ready for my complete life story, you can find here a PDF-version of my résumé. Otherwise, let me tell you my story. I've added quick navigation buttons to go to the relevant sections. You can learn more about an experience by clicking on it. "
+   headerContent = "Ironically, I am not a big fan of résumés. I think it's a hard exercise of data visualisation, where you can't really win - but you can actually lose. If you are not ready for my complete life story, you can find <a href='./CV_Sylvain_Buisson_2022.pdf' target='_blank'>here</a> a PDF-version of my résumé. Otherwise, let me tell you my story. I've added quick navigation buttons to go to the relevant sections. You can learn more about an experience by clicking on it. "
 }
 </script>
     
