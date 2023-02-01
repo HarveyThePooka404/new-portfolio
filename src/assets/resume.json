@@ -4,9 +4,15 @@
         "anchor": "software_development", 
         "exerpt" : "I’ve always wanted to challenge myself intellectually, and help others do what they do best. Being a software developer means that now I can create the tools for it (while hopefully, having fun in the process). After moving to Denmark in 2018, I went back to school for two years to learn Frontend Development, and then joined Culmas.io as a Fullstack Developer.  I’m passionate about Web technologies (and since I’ve never known anything but Javascript, I don’t hate it that much).",
         "experiences" : [{
+            "jobTitle": "Software Engineer", 
+            "company": "Figures.hr", 
+            "timeRange": "November 2022 - Present", 
+            "experienceContent": "As a project lead I kept my responsibilities as a software developer while taking the responsibility of ad hoc processes including <ul><li>Development Cycle organization and structure (using a homebrewed version of ShapeUp) </li><li>Recruitment Process (interview process and technical tests ; being part of Career Day at KU) </li><li>Performance Review (setting up the process of performance reviews for the company)</li></ul>",
+            "techStack": "Next.js / Typescript, Material UI / Tailwind, Prisma / Postgress"
+        },{
             "jobTitle": "Project Lead", 
             "company": "Culmas.io", 
-            "timeRange": "Octobre 2021 - Present", 
+            "timeRange": "Octobre 2021 - Octobre 2022", 
             "experienceContent": "As a project lead I kept my responsibilities as a software developer while taking the responsibility of ad hoc processes including <ul><li>Development Cycle organization and structure (using a homebrewed version of ShapeUp) </li><li>Recruitment Process (interview process and technical tests ; being part of Career Day at KU) </li><li>Performance Review (setting up the process of performance reviews for the company)</li></ul>",
             "techStack": "Vue / Typescript, GraphQL, Go, Firebase / Cloud Functions"
         }, {

@@ -1,8 +1,8 @@
 {
     "Climbing" : {
         "name": "Climbing",
-        "definition" : "Lorem Ipsum",
-        "enjoy": "Lorem Ipsum", 
+        "definition" : "Bouldering is a form of free climbing that is performed on small rock formations or artificial rock walls without the use of ropes or harnesses. It’s not to be confused with “Lead” climbing (with giant walls), and you’ll never catch me higher than 4 meters off the ground. In a climbing gym, a ‘route setter’ creates a ‘problem’ (some technically harder part of a route) for you to play around.",
+        "enjoy": "I think bouldering is one of the most ‘complete’ sport there is: it’s a whole body sport, involving every muscles and core, while necessitating to think about your movements (and some flexibility), it’s a social sport, where you’ll very easily talk to someone working on the same route as you, and finally it’s an intellectual challenge (a puzzle) to solve the problem created by the setter.", 
         "recommendations": "Lorem Ipsum" 
     }, 
     "Cooking" : {
